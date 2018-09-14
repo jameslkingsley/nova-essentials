@@ -1,0 +1,29 @@
+{
+    "name": "jameslkingsley/nova-essentials",
+    "description": "A Laravel Nova package that adds some essential macros.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kingsley\\NovaEssentials\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kingsley\\NovaEssentials\\NovaEssentialsServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
